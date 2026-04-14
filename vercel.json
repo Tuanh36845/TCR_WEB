@@ -1,0 +1,1 @@
+{\n  "builds": [\n    {\n      "src": "api/index.py",\n      "use": "@vercel/python"\n    }\n  ],\n  "rewrites": [\n    {\n      "source": "/(.*)",\n      "destination": "/api/index.py"\n    }\n  ]\n}
